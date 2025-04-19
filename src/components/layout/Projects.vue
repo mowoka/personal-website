@@ -100,6 +100,14 @@ const projects = ref([
     liveLink: "/",
     codeLink: "https://github.com/mowoka/monorepo_osm",
   },
+  {
+    title: "Personal Website",
+    description: "Personal website for display profile giofanny mowoka",
+    image: "src/assets/images/personal-website-preview.png",
+    tags: ["Javascript", "Vue 3"],
+    liveLink: "/",
+    codeLink: "https://github.com/mowoka/personal-website",
+  },
 ]);
 </script>
 
