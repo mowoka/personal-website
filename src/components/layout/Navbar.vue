@@ -48,8 +48,7 @@
         </ul>
         <button  class="text-white ml-20 z-10 hidden md:block">
             <!-- show icon if dark or light theme -->
-             <Icon v-if="!isDarkMode" icon="line-md:moon-filled" class="text-5xl text-secondary" />
-             <Icon v-else icon="line-md:sunny-outline" class="text-5xl text-secondary" />
+             <Icon  icon="line-md:moon-filled" class="text-5xl text-secondary" />
         </button>
       </nav>
 
