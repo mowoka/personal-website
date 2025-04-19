@@ -75,7 +75,6 @@
 
 <script setup>
 import Profile from "../../assets/images/profile.png";
-import Button from "../UI/Button.vue";
 </script>
 
 <style scoped>

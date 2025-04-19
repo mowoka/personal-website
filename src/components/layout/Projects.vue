@@ -60,6 +60,11 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ProjectCard from "../UI/ProjectCard.vue";
+import WowPreview from '../../assets/images/wow-preview.png';
+import WaysBookPreview from '../../assets/images/ways-book-preview.png';
+import HelloRecipePreview from '../../assets/images/hello-recipe-app.png';
+import MonorepoPreview from '../../assets/images/monorepo-osm.png';
+import PersonalPreview from '../../assets/images/personal-website-preview.png';
 
 // * Define Navigation
 const navigationOptions = {
@@ -71,7 +76,7 @@ const projects = ref([
   {
     title: "World of Books",
     description: "Window Of World is Web Library Online. Web applications that handle users who want to read. by paying only once and can read all books",
-    image: "src/assets/images/wow-preview.png",
+    image: WowPreview,
     tags: ["React JS", "Bootstrap Css", "Express JS", "Mysql"],
     liveLink: "/",
     codeLink: "https://github.com/mowoka/DWF20VBFK_WOW-PROJECT",
@@ -79,7 +84,7 @@ const projects = ref([
   {
     title: "Ways Books",
     description: "WaysBook is web app point of sales book.  an application made to handle both the user and the admin page",
-    image: "src/assets/images/ways-book-preview.png",
+    image: WaysBookPreview,
     tags: ["React JS", "Bootstrap Css", "Express JS", "Mysql"],
     liveLink: "/",
     codeLink: "https://github.com/mowoka/batch20-FinalTask",
@@ -87,7 +92,7 @@ const projects = ref([
   {
     title: "Hello Recipe App",
     description: "Mobile Apps helps customers to saving and reference food recipes",
-    image: "src/assets/images/hello-recipe-app.png",
+    image: HelloRecipePreview,
     tags: ["Android", "IOS", "Flutter", "Unit Testing"],
     liveLink: "/",
     codeLink: "https://github.com/mowoka/flutter_movies",
@@ -95,7 +100,7 @@ const projects = ref([
   {
     title: "Monorepo OSM Map",
     description: "Monorepo OpenStreetMap using Next JS, React Native Expo",
-    image: "src/assets/images/monorepo-osm.png",
+    image: MonorepoPreview,
     tags: ["Solito JS", "Next JS", "React Native", "Expo"],
     liveLink: "/",
     codeLink: "https://github.com/mowoka/monorepo_osm",
@@ -103,7 +108,7 @@ const projects = ref([
   {
     title: "Personal Website",
     description: "Personal website for display profile giofanny mowoka",
-    image: "src/assets/images/personal-website-preview.png",
+    image: PersonalPreview,
     tags: ["Javascript", "Vue 3"],
     liveLink: "/",
     codeLink: "https://github.com/mowoka/personal-website",
