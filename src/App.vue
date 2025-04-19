@@ -2,6 +2,7 @@
 import Counter from "./components/layout/Counter.vue";
 import HeroSection from "./components/layout/HeroSection.vue";
 import Navbar from "./components/layout/Navbar.vue";
+import Projects from "./components/layout/Projects.vue";
 import Service from "./components/layout/Service.vue";
 import Skills from "./components/layout/Skills.vue";
 import WhyMe from "./components/layout/WhyMe.vue";
@@ -15,5 +16,6 @@ import WhyMe from "./components/layout/WhyMe.vue";
     <Service />
     <Skills />
     <WhyMe />
+    <Projects />
   </div>
 </template>
