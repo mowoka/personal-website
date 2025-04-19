@@ -1,2 +1,15 @@
 @import 'tailwindcss';
 
+
+:root{
+
+}
+
+[data-theme="dark"]{
+
+}
+
+@theme {
+    --color-primary: #000957;
+    --color-secondary: #ffeb00;
+}
