@@ -3,6 +3,7 @@ import Counter from "./components/layout/Counter.vue";
 import HeroSection from "./components/layout/HeroSection.vue";
 import Navbar from "./components/layout/Navbar.vue";
 import Service from "./components/layout/Service.vue";
+import Skills from "./components/layout/Skills.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import Service from "./components/layout/Service.vue";
     <HeroSection />
     <Counter />
     <Service />
+    <Skills />
   </div>
 </template>
