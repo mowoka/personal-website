@@ -1,18 +1,18 @@
 <template>
   <section
     data-aos="zoom "
-    class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0"
+    class="flex justify-center items-center text-white min-h-screen mt-[140px] lg:mt-0"
   >
     <header
-      class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] left-10 top-0 hidden md:block"
+      class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 blur-[100px] left-10 top-0 hidden md:block"
     ></header>
     <header
-      class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 dark:opacity-20 blur-[100px] right-10 bottom-0 hidden md:block"
+      class="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#00c6cc] via-[#785ae4] to-secondary opacity-30 blur-[100px] right-10 bottom-0 hidden md:block"
     ></header>
     <main
       class="absolute grid lg:grid-cols-2 grid-cols-1 items-center p-2 lg:p-8"
     >
-      <header class="text-center lg:text-left">
+      <header class="text-center lg:text-left p-4 md:p-0">
         <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">
           👋 Hi, I'm <span class="text-secondary">Giofanny Mowoka</span>
         </h1>
@@ -30,30 +30,30 @@
         <div class="mt-8 flex justify-center lg:justify-start">
           <a
             href=""
-            class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
+            class="font-semibold text-lg w-[10rem] h-[55px] text-secondary rounded-full ml-2 border-2 border-secondary hover:scale-105 bg-transparent flex justify-center items-center"
           >
             <Icon icon="line-md:download-loop" class="text-3xl" />
             <span class="ml-1">Resume</span>
           </a>
           <a
             href="https://github.com/mowoka"
-            class="font-semibold text-lg w-[5rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
+            class="font-semibold text-lg w-[5rem] h-[55px] text-secondary rounded-full ml-2 border-2 border-secondary hover:scale-105  bg-transparent flex justify-center items-center"
           >
             <Icon icon="line-md:github-loop" class="text-3xl" />
           </a>
           <a
             href="https://www.linkedin.com/in/giofanny-mowoka/"
-            class="font-semibold text-lg w-[5rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
+            class="font-semibold text-lg w-[5rem] h-[55px] text-secondary rounded-full ml-2 border-2 border-secondary hover:scale-105  bg-transparent flex justify-center items-center"
           >
             <Icon icon="line-md:linkedin" class="text-3xl" />
           </a>
         </div>
       </header>
       <aside
-        class="container flex justify-center lg:justify-end mt-20 lg:mt-0 items-center flex-wrap"
+        class="container flex justify-center lg:justify-end mt-5 lg:mt-0 items-center flex-wrap"
       >
         <figure
-          class="card relative m-[30px] md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] before:border-[25px] before:border-primary before:shadow-[7px_7px_21px_primary,_-7px_-7px_-21px_primary] dark:before:border-secondary dark:before:shadow-[7px_7px_21px_secondary ,_-7px_-7px_-21px_secondary]"
+          class="card relative  md:w-[420px] md:h-[420px] md:before:w-[450px] md:before:h-[450px] w-[280px] h-[350px] before:w-[300px] before:h-[300px] before:border-[25px] before:border-secondary before:shadow-[7px_7px_21px_secondary,_-7px_-7px_-21px_secondary]"
         >
           <div
             class="relative w-full h-full bg-cover transform translate-x-[10px] translate-y-[10px]"

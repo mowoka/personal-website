@@ -12,7 +12,7 @@
         <div
           data-aos="fade-up"
           :data-aos-delay="element.id * 100"
-          class="mt-[30px] relative flex flex-col justify-center text-center rounded-[30px] border border-secondary dark:bg-[#ffffff29] bg-primay"
+          class="mt-[30px] relative flex flex-col justify-center text-center rounded-[30px] border border-secondary bg-[#ffffff29]"
         >
           <div class="mt-[30px] flex justify-center relative">
             <div class="mt-[-7px] p-[8px] relative bg-primary rounded-[50%]">

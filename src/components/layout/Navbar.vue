@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex justify-between items-center p-8 lg:px-12 relative z-20">
-      <div class="text-3xl font-bold dark:text-white">Mokaz Dev</div>
+      <div class="text-3xl font-bold text-white">Mokaz Dev</div>
 
       <!-- Mobile Toggle Button -->
       <div class="md:hidden z-30">
@@ -11,13 +11,13 @@
         >
           <span
             v-if="isMenuOpen"
-            class="text-5xl md:text-primary text-white dark:text-white"
+            class="text-5xl text-white"
           >
             <Icon icon="material-symbols:close" />
           </span>
           <span
             v-else
-            class="text-5xl md:text-primary text-white dark:text-white"
+            class="text-5xl text-white"
           >
             <Icon icon="material-symbols:menu" />
           </span>
@@ -40,7 +40,7 @@
             <a
               @click="() => scrollToSection(item.href)"
               :href="item.href"
-              class="block transition ease-linear md:text-lg lg:text-xl font-bold text-white md:text-primary hover:text-secondary dark:text-white dark:hover:text-secondary"
+              class="block transition ease-linear md:text-lg lg:text-xl font-bold hover:text-secondary text-white"
             >
               {{ item.name }}
             </a>

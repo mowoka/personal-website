@@ -3,12 +3,12 @@
     <SectionHeader title="My Projects" />
     <!-- custom navigation buttons -->
     <button
-      class="swiper-prev absolute top-2/3 left-4 transform -translate-y-1/2 z-10 text-white dark:bg-secondary bg-primary p-4 rounded-full"
+      class="swiper-prev absolute top-2/3 left-4 transform -translate-y-1/2 z-10 text-white bg-secondary  p-4 rounded-full"
     >
       <Icon icon="line-md:arrow-left" class="font-bold text-2xl" />
     </button>
     <button
-      class="swiper-next absolute top-2/3 right-4 transform -translate-y-1/2 z-10 text-white dark:bg-secondary bg-primary p-4 rounded-full"
+      class="swiper-next absolute top-2/3 right-4 transform -translate-y-1/2 z-10 text-white bg-secondary p-4 rounded-full"
     >
       <Icon icon="line-md:arrow-right" class="font-bold text-2xl" />
     </button>
