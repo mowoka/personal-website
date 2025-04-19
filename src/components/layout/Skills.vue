@@ -24,37 +24,42 @@
   </section>
 </template>
 <script setup>
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import SectionHeader from "../UI/SectionHeader.vue";
 
 const skills = ref([
   {
-    title: "Figma",
+    title: "Frontend Development",
     bgGradient: "to-[#acac39] from-[#1f1e1c99]",
     textColor: "#FFE600",
   },
   {
-    title: "Java",
+    title: "Mobile Development",
     bgGradient: "to-[#00a9ff99] from-[#1f1e1c99]",
     textColor: "#59c378",
   },
   {
-    title: "Photoshop",
+    title: "React JS",
     bgGradient: "to-[#dd584f99] from-[#1f1e1c99]",
     textColor: "#dd584f",
   },
   {
-    title: "Vue js",
+    title: "React Native",
     bgGradient: "to-[#ff9a0099] from-[#1f1e1c99]",
     textColor: "#ff9a00",
   },
   {
-    title: "Wordpress",
+    title: "Next JS",
     bgGradient: "to-[#00a9ff99] from-[#1f1e1c99]",
     textColor: "#00a9ff",
   },
   {
-    title: "ReactJS",
+    title: "Flutter",
+    bgGradient: "to-[#ff9a0099] from-[#1f1e1c99]",
+    textColor: "#ff9a00",
+  },
+  {
+    title: "Vue JS",
     bgGradient: "to-[#9e00ff99] from-[#1f1e1c99]",
     textColor: "#ad00ff",
   },
@@ -66,6 +71,26 @@ const skills = ref([
   {
     title: "Javascript",
     bgGradient: "to-[#59c37899] from-[#1f1e1c99]",
+    textColor: "#59c378",
+  },
+  {
+    title: "TypeScript",
+    bgGradient: "to-[#dd584f99] from-[#1f1e1c99]",
+    textColor: "#dd584f",
+  },
+  {
+    title: "Dart",
+    bgGradient: "to-[#acac39] from-[#1f1e1c99]",
+    textColor: "#FFE600",
+  },
+  {
+    title: "Grunt JS",
+    bgGradient: "to-[#9e00ff99] from-[#1f1e1c99]",
+    textColor: "#ad00ff",
+  },
+  {
+    title: "Unit Testing",
+    bgGradient: "to-[#00a9ff99] from-[#1f1e1c99]",
     textColor: "#59c378",
   },
 ]);

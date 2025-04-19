@@ -23,9 +23,9 @@
             </span>
             </div>
           </div>
-          <div class="p-[30px]">
+          <div class="px-[30px] pt-[10px] pb-[30px]">
             <h3 class="uppercase font-semibold text-secondary text-base">{{ element.name }} </h3>
-            <p class="text-[14px] leading-[20px] text-white tracking-[0.03rem]">{{ element.description }}</p>
+            <p class="text-[14px] leading-[20px] text-white tracking-[0.03rem] mt-2">{{ element.description }}</p>
           </div>
         </div>
       </article>
@@ -42,35 +42,35 @@ const services = ref([
     icon: "logos:chrome-web-store",
     name: "Web Development",
     description:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis nostrum fugiat amet provident, est sapiente esse distinctio impedit! Provident, sit?",
+      "Develop web applications using (HTML, CSS, and Javascript), (React JS), (Next JS), (Vue JS) combine with TypeScript. Create responsive and visually appealing websites that are easy to navigate and use.",
   },
   {
     id: 2,
-    icon: "dashicons:welcome-write-blog",
-    name: "Technilca Writing",
+    icon: "fluent-emoji:mobile-phone",
+    name: "Mobile Development",
     description:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis nostrum fugiat amet provident, est sapiente esse distinctio impedit! Provident, sit?",
+      "Develop mobile applications using (React Native), (React Native Expo), (Flutter). Create application native support both device platform android and ios, pulish on apple store and google play store.",
   },
   {
-    id: 3,
-    icon: "logos:chrome-web-store",
-    name: "Technilca Writing",
+    id: 3, 
+    icon: "fa-solid:hands-helping",
+    name: "Fullstack Development",
     description:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis nostrum fugiat amet provident, est sapiente esse distinctio impedit! Provident, sit?",
+      "Develop fullstack applications using (Next JS), (React JS + Nest JS). Create responsive and visually appealing websites that are easy to navigate and use, and manage saving data to database.",
   },
   {
     id: 4,
-    icon: "logos:chrome-web-store",
-    name: "Technilca Writing",
+    icon: "fxemoji:pages",
+    name: "Slicing Pages",
     description:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis nostrum fugiat amet provident, est sapiente esse distinctio impedit! Provident, sit?",
+      "Create slicing per page using (Grunt), (HTML, CSS, and Javascript). Create component library for reusable code and manage styling and design. create page layout per feature.",
   },
   {
     id: 5,
     icon: "logos:chrome-web-store",
-    name: "Technilca Writing",
+    name: "IT Support",
     description:
-      "lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis nostrum fugiat amet provident, est sapiente esse distinctio impedit! Provident, sit?",
+      "Provide IT support for the website and application. Provide technical support for the website and application. Provide technical support for the website and application.",
   },
 ]);
 </script>

@@ -1,6 +1,6 @@
 <template>
   <section
-  data-aos="zoom "
+    data-aos="zoom "
     class="flex justify-center items-center dark:text-white min-h-screen mt-20 lg:mt-0"
   >
     <header
@@ -16,20 +16,36 @@
         <h1 class="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold">
           👋 Hi, I'm <span class="text-secondary">Giofanny Mowoka</span>
         </h1>
-        <p class="text-lg max-w-xl mx-auto lg:mx-0 font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ad
-          obcaecati dolor itaque unde adipisci alias ipsum voluptas debitis
-          nostrum fugiat amet provident, est sapiente esse distinctio impedit!
-          Provident, sit?
+        <p class="text-lg max-w-xl lg:max-w-2xl mx-auto lg:mx-0 font-semibold text-justify">
+          I am frontend developer with 4 years of work
+          experience. My tech stack includes React JS, React Native, Next JS,
+          and Flutter. Currently, I am developing a gold trading system project
+          using React Native. As a frontend developer, I am responsible for
+          building the 'Cast Gold' feature, which allows customers to convert
+          digital assets into real gold assets and have them delivered to their
+          homes. To achieve this, I implemented React Leaflet to save customer
+          address coordinates and integrated a third-party courier service. I am
+          also proficient in TypeScript and Next JS for full-stack development.
         </p>
-        <div class="mt-6 flex justify-center lg:justify-start">
-          <Button label="Hire Me" onClick="() => {}" />
+        <div class="mt-8 flex justify-center lg:justify-start">
           <a
             href=""
             class="font-semibold text-lg w-[10rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
           >
             <Icon icon="line-md:download-loop" class="text-3xl" />
             <span class="ml-1">Resume</span>
+          </a>
+          <a
+            href="https://github.com/mowoka"
+            class="font-semibold text-lg w-[5rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
+          >
+            <Icon icon="line-md:github-loop" class="text-3xl" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/giofanny-mowoka/"
+            class="font-semibold text-lg w-[5rem] h-[55px] dark:text-secondary rounded-full ml-2 border-2 dark:border-secondary hover:scale-105 bg-white dark:bg-transparent flex justify-center items-center text-primary border-primary"
+          >
+            <Icon icon="line-md:linkedin" class="text-3xl" />
           </a>
         </div>
       </header>

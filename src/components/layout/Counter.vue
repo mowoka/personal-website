@@ -27,10 +27,10 @@
 import { ref, onMounted } from "vue";
 
 const numbers = ref([
-  { id: 1, numbers: 12, title: "Created Projects" },
-  { id: 1, numbers: 200, title: "Projects" },
-  { id: 1, numbers: 120, title: "Happy Clients" },
-  { id: 1, numbers: 5, title: "Years" },
+  { id: 1, numbers: 2, title: "Company" },
+  { id: 1, numbers: 8, title: "Projects Based" },
+  { id: 1, numbers: 3, title: "Dedicated Projects" },
+  { id: 1, numbers: 4, title: "Years Experience" },
 ]);
 
 const statsSection = ref(null);

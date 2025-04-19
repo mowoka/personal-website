@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="flex justify-between items-center p-8 lg:px-12 relative z-20">
-      <div class="text-3xl font-bold dark:text-white">LOGO</div>
+      <div class="text-3xl font-bold dark:text-white">Mokaz Dev</div>
 
       <!-- Mobile Toggle Button -->
       <div class="md:hidden z-30">
@@ -46,7 +46,7 @@
             </a>
           </li>
         </ul>
-        <button @click="toggleDarkMode" class="text-white ml-20 z-10 hidden md:block">
+        <button  class="text-white ml-20 z-10 hidden md:block">
             <!-- show icon if dark or light theme -->
              <Icon v-if="!isDarkMode" icon="line-md:moon-filled" class="text-5xl text-secondary" />
              <Icon v-else icon="line-md:sunny-outline" class="text-5xl text-secondary" />
