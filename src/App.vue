@@ -4,6 +4,7 @@ import HeroSection from "./components/layout/HeroSection.vue";
 import Navbar from "./components/layout/Navbar.vue";
 import Service from "./components/layout/Service.vue";
 import Skills from "./components/layout/Skills.vue";
+import WhyMe from "./components/layout/WhyMe.vue";
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import Skills from "./components/layout/Skills.vue";
     <Counter />
     <Service />
     <Skills />
+    <WhyMe />
   </div>
 </template>
