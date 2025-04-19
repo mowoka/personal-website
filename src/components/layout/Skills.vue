@@ -6,13 +6,13 @@
         <li
           v-for="(skill, index) in skills"
           :key="index"
-          :class="`mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t ${skill.bgGradient}`"
+          :class="`mx-[15px] rounded-[12px] w-full md:w-[250px] mb-7 bg-gradient-to-t ${skill.bgGradient}`"
         >
           <div
-            class="rounded-[12px] bg-primary mt-[3px] p-12 md:p-5 text-center"
+            class="rounded-[12px] bg-primary mt-[3px] p-12 md:p-5 "
           >
             <h3
-              class="font-bold text-[35px] text-white flex items-center justify-centers"
+              class="font-bold text-[25px] text-white text-center"
               :style="{ color: skill.textColor }"
             >
               {{ skill.title }}

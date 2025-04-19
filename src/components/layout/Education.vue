@@ -1,7 +1,7 @@
 <template>
-  <section class="p-16">
+  <section class="p-4 md:p-16">
     <header class="text-center">
-      <h2 class="text-4xl font-bold text-primary dark:text-white">Education</h2>
+      <h2 class="text-4xl font-bold text-white">Education</h2>
     </header>
     <ul class="mt-10 space-y-8">
       <li
