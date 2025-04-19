@@ -1,5 +1,7 @@
 <script setup>
+import Contact from "./components/layout/Contact.vue";
 import Counter from "./components/layout/Counter.vue";
+import Footer from "./components/layout/Footer.vue";
 import HeroSection from "./components/layout/HeroSection.vue";
 import Navbar from "./components/layout/Navbar.vue";
 import Projects from "./components/layout/Projects.vue";
@@ -17,5 +19,7 @@ import WhyMe from "./components/layout/WhyMe.vue";
     <Skills />
     <WhyMe />
     <Projects />
+    <Contact />
+    <Footer />
   </div>
 </template>
